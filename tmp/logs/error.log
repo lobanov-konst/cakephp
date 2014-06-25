@@ -1,0 +1,307 @@
+2014-06-24 16:05:06 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-24 16:19:08 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /web_app/
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
+#1 /home/kostia/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
+#2 /home/kostia/cakephp/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /home/kostia/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /home/kostia/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#9 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-24 16:34:37 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /web_app/
+Stack Trace:
+#0 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 16:34:48 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /web_app/
+Stack Trace:
+#0 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 16:35:14 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /web_app/
+Stack Trace:
+#0 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 17:06:34 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /web_app/
+Stack Trace:
+#0 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 17:06:48 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/pages/display
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('display')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('display', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('display')
+#3 [internal function]: PagesController->display('display')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-06-24 17:08:12 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/pages/display
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-24 17:08:23 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/pages/display
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-24 17:08:32 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/pages/display
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('display')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('display', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('display')
+#3 [internal function]: PagesController->display('display')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-06-24 17:33:20 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/pages/display
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('display')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('display', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('display')
+#3 [internal function]: PagesController->display('display')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-06-24 17:33:21 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/pages/display
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('display')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('display', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('display')
+#3 [internal function]: PagesController->display('display')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-06-24 17:34:40 Error: [MissingControllerException] Controller class FfController could not be found.
+Exception Attributes: array (
+  'class' => 'FfController',
+  'plugin' => NULL,
+)
+Request URL: /web_app/ff
+Stack Trace:
+#0 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 17:34:56 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/fff/fff.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/fff/fff.ctp',
+)
+Request URL: /web_app/pages/fff/fff
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('fff/fff')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('fff/fff', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('fff/fff')
+#3 [internal function]: PagesController->display('fff', 'fff')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-06-24 17:35:10 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/fff.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/fff.ctp',
+)
+Request URL: /web_app/pages/fff
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('fff')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('fff', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('fff')
+#3 [internal function]: PagesController->display('fff')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-06-24 17:35:43 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/display.ctp',
+)
+Request URL: /web_app/pages/display
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('display')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('display', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('display')
+#3 [internal function]: PagesController->display('display')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-06-24 17:37:08 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /web_app/pages
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-24 17:38:51 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/index.ctp',
+)
+Request URL: /web_app/pages
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-24 17:39:12 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /web_app/pages
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-24 17:48:13 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /web_app/test
+Stack Trace:
+#0 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 17:48:28 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/test.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/test.ctp',
+)
+Request URL: /web_app/pages/test
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-24 18:12:37 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/test.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/test.ctp',
+)
+Request URL: /web_app/pages/test
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-24 18:24:27 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/test.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/test.ctp',
+)
+Request URL: /web_app/pages/test
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-24 18:24:55 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /web_app/
+Stack Trace:
+#0 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 19:19:47 Error: [MissingViewException] View file "/home/www-data/www/test/web_app/View/Pages/index.php" is missing.
+Exception Attributes: array (
+  'file' => '/home/www-data/www/test/web_app/View/Pages/index.php',
+)
+Request URL: /web_app/pages/index
+Stack Trace:
+#0 /home/kostia/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('index')
+#1 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(954): View->render('index', NULL)
+#2 /home/www-data/www/test/web_app/Controller/PagesController.php(59): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 /home/kostia/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kostia/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/www-data/www/test/web_app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
