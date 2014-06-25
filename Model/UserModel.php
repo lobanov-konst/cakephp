@@ -7,6 +7,15 @@
      * Time: 15:29
      */
     class UserModel extends AppModel {
-        public $name = 'Post';
+
+         public $useTable = 'posts';
+        //        public $table = true;
+        //        public $useTable = 'Post';
+        //        public $name = 'Posts';
+        //        public $table = 'Posts';
+        //        public function __construct() {
+        //            $this->table = 'Posts';
+        ////            $this->useTable = 'Posts';
+        //        }
     }
 

@@ -19,22 +19,14 @@
      * @package       app.Controller
      * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
      */
+    /** @var UserModel User */
+
     class PagesController extends AppController {
 
-        /**
-         * This controller does not use a model
-         *
-         * @var array
-         */
-        public $uses = array();
 
-        /**
-         * Displays a view
-         *
-         * @return void
-         * @throws NotFoundException When the view file could not be found
-         *   or MissingViewException in debug mode.
-         */
+        // Add model to controller
+        public $uses = array('Posts','UserModel');
+
         public function display() {
             $path = func_get_args();
 
@@ -67,7 +59,10 @@
 
         public function test() {
             //            $this->ext = '.php';
-            $this->set(array('text' => 'test_view'));
+            $this->layout = 'default';
+
+            $this->set(array('text_users' => $this->UserModel->find('all')));
+            $this->set(array('text_posts' => $this->Posts->find('all')));
         }
 
         public function index() {

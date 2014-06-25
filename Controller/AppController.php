@@ -25,4 +25,7 @@
     {
         public $components = array('DebugKit.Toolbar');
         public $ext = '.php';
+
+        /** @var  HtmlHelper $Html */
+        public $Html;
     }
